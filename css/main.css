@@ -213,6 +213,78 @@
     color: #007bff; /* Hover color */
 }
 
+/* galary */
+.gallery {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.gallery-item {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.modal-dialog-centered {
+    max-width: 800px;
+}
+
+.modal-content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body img {
+    width: 100%;
+    display: block;
+}
+/* footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #0056b3;
+}
+
+.footer-content {
+    margin-bottom: 1rem;
+}
+.footer-bottom{
+    margin-top: 1rem;
+    font-size: small;
+    color: #adb5bd;
+}
+
 /*For responsive*/
 @media (max-width: 768px){
    
