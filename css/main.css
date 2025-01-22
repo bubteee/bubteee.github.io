@@ -1,0 +1,50 @@
+
+
+/* HTML-এ বাংলার জন্য */
+[lang="bn"] {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+/* HTML-এ ইংরেজির জন্য */
+[lang="en"] {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  .navbar-brand span {
+    color: #6f42c1; /* Purple color for the dot */
+  }
+  .nav-link {
+    color: #adb5bd !important; /* Light gray text */
+  }
+  .nav-link:hover {
+    color: #ffffff !important; /* White text on hover */
+  }
+  .btn-demo {
+    background-color: #6f42c1; /* Purple button */
+    color: #ffffff;
+    font-weight: bold;
+  }
+  .btn-demo:hover {
+    background-color: #5a359a; /* Darker purple on hover */
+  }
+  .navbar {
+    background-color: #000000; /* Black navbar */
+  }
+  .navbar-nav {
+    margin: 0 auto; /* Center the nav items */
+  }
+.sub-header{
+    background-color: #f9de96;
+    margin: 0;
+    padding: 0;
+}
+.sub-header p{
+    margin: 0;
+    padding: 10px;
+    font-weight: 600;
+   
+}
