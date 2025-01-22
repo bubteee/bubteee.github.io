@@ -48,3 +48,23 @@
     font-weight: 600;
    
 }
+
+.hero-section {
+    padding: 2rem 0; /* Adjust padding as needed */
+    /* background-color: #f8f9fa; Example background color */
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.hero-section h1{
+    font-weight: 900;
+    padding: 20px 0px;
+}
+.hero-section h5{
+    font-weight: 600;
+    padding: 20px 0px;
+}
