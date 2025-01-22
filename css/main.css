@@ -152,6 +152,67 @@
     border-top: 1px solid #eee;
     background-color: #fff;
 }
+/* map */
+.contact-info-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+.contact-info {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+.contact-info h2 {
+    margin-bottom: 1.5rem;
+    color: #333; /* Darker heading */
+}
+
+.contact-details {
+    margin-bottom: 1rem;
+    color: #555; /* Slightly lighter text */
+}
+
+.contact-details i {
+    margin-right: 10px;
+    color: #007bff; /* Accent color for icons */
+}
+
+#map {
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden; /* Important for rounded corners on the map itself */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+}
+
+#map iframe {
+    border: none;
+    filter: grayscale(0.2) contrast(1.1); /* Subtle map styling */
+    transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#map:hover iframe {
+    filter: grayscale(0) contrast(1); /* Remove grayscale on hover */
+}
+.social-icons {
+    margin-top: 2rem;
+    text-align: center; /* Center the icons */
+}
+
+.social-icons a {
+    display: inline-block; /* Make them inline blocks */
+    margin: 0 10px; /* Add some spacing */
+    font-size: 1.5rem; /* Adjust icon size */
+    color: #555; /* Icon color */
+    transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.social-icons a:hover {
+    color: #007bff; /* Hover color */
+}
+
 /*For responsive*/
 @media (max-width: 768px){
    
